@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-type Match = {
+interface Match {
   id: number;
   teamA: string;
   teamB: string;
