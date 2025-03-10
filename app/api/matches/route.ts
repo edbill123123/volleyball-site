@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export const dynamic = "force-static";
 
 const matches = [
   { id: 1, teamA: "Team A", teamB: "Team B", date: "2025-02-15", location: "Stadium 1", logoA: "/images/teamA.png", logoB: "/images/teamB.png" },

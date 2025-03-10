@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export const dynamic = "force-static";
 
 const blogPosts = [
   { id: "1", title: "排球基本技術", summary: "學習如何提升你的基本技術", content: "這是一篇關於排球技術的詳細文章...", date: "2025-02-11", category: "基礎技巧" },
