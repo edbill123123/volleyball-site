@@ -1,6 +1,4 @@
-// app/api/players/route.ts
-import { NextResponse } from "next/server";
-
+import { NextRequest, NextResponse } from "next/server";
 const players = [
   { id: 1, name: "王大明", team: "Team A", position: "攻擊手", image: "/images/player1.png" },
   { id: 2, name: "李雪", team: "Team B", position: "自由球員", image: "/images/player2.png" },
@@ -8,6 +6,7 @@ const players = [
   { id: 4, name: "陳美麗", team: "Team D", position: "欄中", image: "/images/player4.png" },
 ];
 
-export async function GET() {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function GET(_req: NextRequest) {
   return NextResponse.json(players);
 }

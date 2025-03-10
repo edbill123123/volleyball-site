@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 interface BlogPost {
-  id: number;
+  id: string;
   title: string;
   summary: string;
   date: string;

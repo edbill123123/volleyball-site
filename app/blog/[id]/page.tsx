@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 
 interface BlogPost {
-  id: number;
+  id: string;
   title: string;
   content: string;
   date: string;
