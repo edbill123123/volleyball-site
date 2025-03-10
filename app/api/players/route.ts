@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+
+export const dynamic = "force-static";
+
 const players = [
   { id: 1, name: "王大明", team: "Team A", position: "攻擊手", image: "/images/player1.png" },
   { id: 2, name: "李雪", team: "Team B", position: "自由球員", image: "/images/player2.png" },
